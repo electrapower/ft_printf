@@ -11,6 +11,7 @@ SRCS = ft_printf.c \
       utils/ft_putstr.c \
       utils/ft_putnbr.c \
       utils/ft_puthex.c \
+      utils/ft_puthexupper.c \
       utils/ft_putptr.c \
       utils/ft_putunsigned.c
 
