@@ -16,9 +16,9 @@ static int  ft_format(va_list *ap, char c)
 	else if (c == 'u')
 		sum += ft_putunsigned(va_arg(*ap, unsigned int));
     else if (c == 'x')
-        sum += ft_puthex(va_arg(*ap, unsigned int), 0);
+        sum += ft_puthex(va_arg(*ap, unsigned int));
     else if (c == 'X')
-        sum += ft_puthex(va_arg(*ap, unsigned int), 1);
+        sum += ft_puthexupper(va_arg(*ap, unsigned int));
 	else if (c == 'p')
 		sum += ft_putptr(va_arg(*ap, unsigned long int));
 	return (sum);
