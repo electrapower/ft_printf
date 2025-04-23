@@ -1,7 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_puthex.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asalniko <asalniko@student.42berlin.d      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/04/14 16:25:09 by asalniko          #+#    #+#             */
+/*   Updated: 2025/04/14 17:28:47 by asalniko         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 #include <unistd.h>
 
-int ft_puthex(unsigned int n)
+int	ft_puthex(unsigned int n)
 {
 	unsigned int	digit;
 	int				length;

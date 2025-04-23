@@ -1,7 +1,18 @@
-#include "ft_printf.h"
-#include <unistd.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_puthexupper.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asalniko <asalniko@student.42berlin.d      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/04/14 17:29:22 by asalniko          #+#    #+#             */
+/*   Updated: 2025/04/14 17:30:56 by asalniko         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_puthexupper(unsigned int n)
+#include "ft_printf.h"
+
+int	ft_puthexupper(unsigned int n)
 {
 	unsigned int	digit;
 	int				length;
