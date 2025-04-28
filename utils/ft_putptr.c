@@ -18,12 +18,7 @@ int	ft_putptr(unsigned long n)
 
 	length = 0;
 	if (n == 0)
-	{
-		length += ft_putchar('0');
-		length += ft_putchar('x');
-		length += ft_putchar('0');
-		return (length);
-	}
+		return(ft_putstr("(nil)"));
 	if (n >= 16)
 		length += ft_putptr(n / 16);
 	else
