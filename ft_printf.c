@@ -6,12 +6,11 @@
 /*   By: asalniko <asalniko@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 18:19:55 by asalniko          #+#    #+#             */
-/*   Updated: 2025/04/17 18:42:10 by asalniko         ###   ########.fr       */
+/*   Updated: 2025/04/28 16:34:38 by asalniko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-//#include <stdio.h>
 
 static int	ft_format(va_list *ap, char c)
 {
